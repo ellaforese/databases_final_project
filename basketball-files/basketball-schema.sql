@@ -15,9 +15,7 @@ CREATE TABLE Team (
     TeamName            varchar2(25) not null,
     Division_ID         char(1) not null,
     Leauge_ID           char(4) not null,
-    Team_Game_ID        number(8) not null,
     primary key (Team_ID),
-    foreign key (Team_Game_ID) references Game(Game_ID)
 );
 
 DROP TABLE Student_Referee CASCADE CONSTRAINTS;
@@ -36,12 +34,15 @@ CREATE TABLE Game(
       Game_Name         varchar2(50),
       Game_date         date,
       Game_time         char(8),
-      winner            number(8),
-      loser             char(25),
-      score             varchar2(25),
+      home            number(8),
+      away             number(8),
+      home_score             varchar2(25),
+      away_score             varchar2(25),
       primary key (Game_ID),
       foreign key (Game_REF_ID) references Student_Referee(REF_ID),
-      foreign key (Game_Court_ID) references Court(Court_ID)
+      foreign key (Game_Court_ID) references Court(Court_ID),
+      foreign key (home) references Team(Team_ID),
+      foreign key (away) references Team(Team_ID)
 );
 
 DROP TABLE Court CASCADE CONSTRAINTS;
