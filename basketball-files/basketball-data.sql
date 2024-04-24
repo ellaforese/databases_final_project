@@ -1,6 +1,7 @@
 -- add data into basketball tables here
 
 
+
 INSERT INTO Player VALUES (23456789, 11111111, 'ADV', 'F', 'Daenerys Targaryen');
 INSERT INTO Player VALUES (34567890, 11111111, 'ADV', 'M', 'Tyrion Lannister');
 INSERT INTO Player VALUES (56789012, 11111111, 'ADV', 'F', 'Sansa Stark');
@@ -13,18 +14,19 @@ INSERT INTO Player VALUES (89012344, 11111113, 'ADV', 'F', 'Melisandre');
 INSERT INTO Player VALUES (12345666, 11111114, 'ADV', 'M', 'Joffrey Baratheon');
 INSERT INTO Player VALUES (67890123, 11111114, 'ADV', 'M', 'Bran Stark');
 INSERT INTO Player VALUES (12345677, 11111114, 'ADV', 'M', 'Sandor Clegane');
-INSERT INTO Player VALUES (34567899, 22222222, 'Nov', 'M', 'Eddard Stark');
-INSERT INTO Player VALUES (56789011, 22222222, 'Nov', 'F', 'Catelyn Stark');
-INSERT INTO Player VALUES (78901233, 22222222, 'Nov', 'M', 'Davos Seaworth');
-INSERT INTO Player VALUES (90123455, 22222223, 'Nov', 'M', 'Theon Greyjoy');
-INSERT INTO Player VALUES (23456777, 22222223, 'Nov', 'F', 'Shae');
-INSERT INTO Player VALUES (45678999, 22222223, 'Nov', 'M', 'Ramsay Bolton');
-INSERT INTO Player VALUES (12345678, 22222224, 'Nov', 'M', 'John Snow');
-INSERT INTO Player VALUES (45678901, 22222224, 'Nov', 'M', 'Arya Stark');
-INSERT INTO Player VALUES (67890123, 22222224, 'Nov', 'M', 'Bran Stark');
-INSERT INTO Player VALUES (78901234, 22222225, 'Nov', 'F', 'Cersei Lannister');
-INSERT INTO Player VALUES (89012345, 22222225, 'Nov', 'M', 'Jaime Lannister');
-INSERT INTO Player VALUES (77012345, 22222225, 'Nov', 'M', 'Drogon');
+INSERT INTO Player VALUES (34567899, 22222222, 'NOV', 'M', 'Eddard Stark');
+INSERT INTO Player VALUES (56789011, 22222222, 'NOV', 'F', 'Catelyn Stark');
+INSERT INTO Player VALUES (78901233, 22222222, 'NOV', 'M', 'Davos Seaworth');
+INSERT INTO Player VALUES (90123455, 22222223, 'NOV', 'M', 'Theon Greyjoy');
+INSERT INTO Player VALUES (23456777, 22222223, 'NOV', 'F', 'Shae');
+INSERT INTO Player VALUES (45678999, 22222223, 'NOV', 'M', 'Ramsay Bolton');
+INSERT INTO Player VALUES (12345678, 22222224, 'NOV', 'M', 'John Snow');
+INSERT INTO Player VALUES (45678901, 22222224, 'NOV', 'M', 'Arya Stark');
+INSERT INTO Player VALUES (67890123, 22222224, 'NOV', 'M', 'Bran Stark');
+INSERT INTO Player VALUES (78901234, 22222225, 'NOV', 'F', 'Cersei Lannister');
+INSERT INTO Player VALUES (89012345, 22222225, 'NOV', 'M', 'Jaime Lannister');
+INSERT INTO Player VALUES (77012345, 22222225, 'NOV', 'M', 'Drogon');
+
 
 
 
