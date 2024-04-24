@@ -4,7 +4,7 @@ WHERE Skill_Level = 'NOV';
 
 SELECT * 
 FROM Player 
-WHERE Skill_Level = 'ABV';
+WHERE Skill_Level = 'ADV';
 
 SELECT * 
 FROM Team
