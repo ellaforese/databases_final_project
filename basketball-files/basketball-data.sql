@@ -44,6 +44,12 @@ INSERT INTO student_referee VALUES (234567, 'Michelangelo', 83456788);
 INSERT INTO student_referee VALUES (345678, 'Donatello', 94567899);
 INSERT INTO student_referee VALUES (456789, 'Raphael', 75678900);
 
+INSERT INTO Court VALUES (1234, '100 St Kingslanding', 'COURT 1');
+INSERT INTO Court VALUES (1235, '200 St Dragonstone', 'COURT 2');
+INSERT INTO Court VALUES (1236, '300 St The North', 'COURT 3');
+INSERT INTO Court VALUES (1237, '400 St Winterfell', 'COURT 4');
+INSERT INTO Court VALUES (1238, '500 St Dorne', 'COURT 5');
+
 
 -- Divison A games
 -- Winter Wolves vs Fire Phoenixes
@@ -84,11 +90,7 @@ INSERT INTO Game VALUES (99889999, 234567, 1235, 'Shadow Serpents vs Sun Tigers'
 
 
 
-INSERT INTO Court VALUES (1234, '100 St Kingslanding', 'COURT 1');
-INSERT INTO Court VALUES (1235, '200 St Dragonstone', 'COURT 2');
-INSERT INTO Court VALUES (1236, '300 St The North', 'COURT 3');
-INSERT INTO Court VALUES (1237, '400 St Winterfell', 'COURT 4');
-INSERT INTO Court VALUES (1238, '500 St Dorne', 'COURT 5');
+
 
 
 
