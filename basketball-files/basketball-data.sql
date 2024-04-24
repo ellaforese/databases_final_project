@@ -1,6 +1,17 @@
 -- add data into basketball tables here
 
 
+-- Division A
+INSERT INTO Team VALUES (11111111, 'Winter Wolves', 'A', 'NOVA');
+INSERT INTO Team VALUES (11111112, 'Fire Phoenixes', 'A', 'NOVA');
+INSERT INTO Team VALUES (11111113, 'Thunder Titans', 'A', 'NOVA');
+INSERT INTO Team VALUES (11111114, 'Earth Bears', 'A', 'NOVA');
+
+-- Division B
+INSERT INTO Team VALUES (22222222, 'Ice Dragons', 'B', 'NOVA');
+INSERT INTO Team VALUES (22222223, 'Storm Stallions', 'B', 'NOVA');
+INSERT INTO Team VALUES (22222224, 'Shadow Serpents', 'B', 'NOVA');
+INSERT INTO Team VALUES (22222225, 'Sun Tigers', 'B', 'NOVA');
 
 INSERT INTO Player VALUES (23456789, 11111111, 'ADV', 'F', 'Daenerys Targaryen');
 INSERT INTO Player VALUES (34567890, 11111111, 'ADV', 'M', 'Tyrion Lannister');
@@ -26,21 +37,6 @@ INSERT INTO Player VALUES (67890123, 22222224, 'NOV', 'M', 'Bran Stark');
 INSERT INTO Player VALUES (78901234, 22222225, 'NOV', 'F', 'Cersei Lannister');
 INSERT INTO Player VALUES (89012345, 22222225, 'NOV', 'M', 'Jaime Lannister');
 INSERT INTO Player VALUES (77012345, 22222225, 'NOV', 'M', 'Drogon');
-
-
-
-
--- Division A
-INSERT INTO Team VALUES (11111111, 'Winter Wolves', 'A', 'NOVA');
-INSERT INTO Team VALUES (11111112, 'Fire Phoenixes', 'A', 'NOVA');
-INSERT INTO Team VALUES (11111113, 'Thunder Titans', 'A', 'NOVA');
-INSERT INTO Team VALUES (11111114, 'Earth Bears', 'A', 'NOVA');
-
--- Division B
-INSERT INTO Team VALUES (22222222, 'Ice Dragons', 'B', 'NOVA');
-INSERT INTO Team VALUES (22222223, 'Storm Stallions', 'B', 'NOVA');
-INSERT INTO Team VALUES (22222224, 'Shadow Serpents', 'B', 'NOVA');
-INSERT INTO Team VALUES (22222225, 'Sun Tigers', 'B', 'NOVA');
 
 
 INSERT INTO student_referee VALUES (123456, 'Leonardo', 72345677);
