@@ -12,4 +12,4 @@ WHERE division_id = 'A';
 
 SELECT * 
 FROM Team
-WHERE division_id = 'C';
+WHERE division_id = 'B';
