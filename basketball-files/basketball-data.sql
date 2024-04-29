@@ -1,7 +1,16 @@
--- add data into basketball tables here
+-- Division A
+INSERT INTO Team VALUES (11111111, 'Winter Wolves', 'A', 'NOVA');
+INSERT INTO Team VALUES (11111112, 'Fire Phoenixes', 'A', 'NOVA');
+INSERT INTO Team VALUES (11111113, 'Thunder Titans', 'A', 'NOVA');
+INSERT INTO Team VALUES (11111114, 'Earth Bears', 'A', 'NOVA');
 
+-- Division B
+INSERT INTO Team VALUES (22222222, 'Ice Dragons', 'B', 'NOVA');
+INSERT INTO Team VALUES (22222223, 'Storm Stallions', 'B', 'NOVA');
+INSERT INTO Team VALUES (22222224, 'Shadow Serpents', 'B', 'NOVA');
+INSERT INTO Team VALUES (22222225, 'Sun Tigers', 'B', 'NOVA');
 
-
+-- Players
 INSERT INTO Player VALUES (23456789, 11111111, 'ADV', 'F', 'Daenerys Targaryen');
 INSERT INTO Player VALUES (34567890, 11111111, 'ADV', 'M', 'Tyrion Lannister');
 INSERT INTO Player VALUES (56789012, 11111111, 'ADV', 'F', 'Sansa Stark');
@@ -29,24 +38,17 @@ INSERT INTO Player VALUES (77012345, 22222225, 'NOV', 'M', 'Drogon');
 
 
 
-
--- Division A
-INSERT INTO Team VALUES (11111111, 'Winter Wolves', 'A', 'NOVA');
-INSERT INTO Team VALUES (11111112, 'Fire Phoenixes', 'A', 'NOVA');
-INSERT INTO Team VALUES (11111113, 'Thunder Titans', 'A', 'NOVA');
-INSERT INTO Team VALUES (11111114, 'Earth Bears', 'A', 'NOVA');
-
--- Division B
-INSERT INTO Team VALUES (22222222, 'Ice Dragons', 'B', 'NOVA');
-INSERT INTO Team VALUES (22222223, 'Storm Stallions', 'B', 'NOVA');
-INSERT INTO Team VALUES (22222224, 'Shadow Serpents', 'B', 'NOVA');
-INSERT INTO Team VALUES (22222225, 'Sun Tigers', 'B', 'NOVA');
-
-
 INSERT INTO student_referee VALUES (123456, 'Leonardo', 72345677);
 INSERT INTO student_referee VALUES (234567, 'Michelangelo', 83456788);
 INSERT INTO student_referee VALUES (345678, 'Donatello', 94567899);
 INSERT INTO student_referee VALUES (456789, 'Raphael', 75678900);
+
+-- court info
+INSERT INTO Court VALUES (1234, '100 St Kingslanding', 'COURT 1');
+INSERT INTO Court VALUES (1235, '200 St Dragonstone', 'COURT 2');
+INSERT INTO Court VALUES (1236, '300 St The North', 'COURT 3');
+INSERT INTO Court VALUES (1237, '400 St Winterfell', 'COURT 4');
+INSERT INTO Court VALUES (1238, '500 St Dorne', 'COURT 5');
 
 
 -- Divison A games
@@ -85,18 +87,3 @@ INSERT INTO Game VALUES (99889998, 123456, 1234, 'Storm Stallions vs Sun Tigers'
 
 -- Shadow Serpents vs Sun Tigers
 INSERT INTO Game VALUES (99889999, 234567, 1235, 'Shadow Serpents vs Sun Tigers', '10-OCT-2024', '12pm', 22222224, 22222225, '63', '65');
-
-
-
-INSERT INTO Court VALUES (1234, '100 St Kingslanding', 'COURT 1');
-INSERT INTO Court VALUES (1235, '200 St Dragonstone', 'COURT 2');
-INSERT INTO Court VALUES (1236, '300 St The North', 'COURT 3');
-INSERT INTO Court VALUES (1237, '400 St Winterfell', 'COURT 4');
-INSERT INTO Court VALUES (1238, '500 St Dorne', 'COURT 5');
-
-
-
-
-
-
-
